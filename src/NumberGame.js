@@ -4,21 +4,22 @@
 function CompareNumber(){
 }
 
-CompareNumber.prototype.compareNumber = function(input,answer){
+CompareNumber.prototype.compareNumber = function(inputnumber,answer){
     var countA = 0;
     var countB = 0;
 
-    for( var positionA=0;positionA<4;positionA++){
-        var numberInput = input[positionA];
-        if(_(answer).contains(numberInput)){
-            if(positionA==answer.indexOf(numberInput)){
+    _.each(inputnumber,function(input){
+        if(_(answer).contains(input)){
+            if(inputnumber.indexOf(input)===answer.indexOf(input)){
                 countA++
             }
             else{
                 countB++;
             }
         }
-    }
+    })
+
     return countA+"A"+countB+"B";
 }
+
 
