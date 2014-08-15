@@ -10,6 +10,10 @@ describe("AnswerGeneratorSpec", function(){
         number = answerGenerator.setNumber();
     });
 
+    it("answer are number",function(){
+        expect(isNaN(Number(number))).toBe(false);
+    });
+
     it("should print 4-digits", function(){
         expect(number.length).toBe(4);
     });
