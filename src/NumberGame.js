@@ -10,15 +10,15 @@ CompareNumber.prototype.compareNumber = function(input,answer){
 
     for( var positionA=0;positionA<4;positionA++){
         var numberInput = input[positionA];
-        for(var positionB=0;positionB<4;positionB++){
-            var numberAnswer = answer[positionB];
-            if(numberAnswer==numberInput&&positionA==positionB){
-                countA++;
+        if(_(answer).contains(numberInput)){
+            if(positionA==answer.indexOf(numberInput)){
+                countA++
             }
-            if(numberAnswer==numberInput&&positionA!=positionB){
+            else{
                 countB++;
             }
         }
     }
     return countA+"A"+countB+"B";
 }
+
