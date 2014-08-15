@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5aa3314-3bb1-4387-b978-0e5aa69c7dd0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NumberGame.js" afterPath="$PROJECT_DIR$/src/NumberGame.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/NumberGameSpec.js" afterPath="$PROJECT_DIR$/spec/NumberGameSpec.js" />
     </list>
     <ignored path="TDD-Jasmine.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,21 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberGame.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NumberGame.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NumberGame.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35239568" vertical-offset="0" max-vertical-offset="647">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
               <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberGameSpec.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="NumberGameSpec.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/NumberGameSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
-              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.5873261" vertical-offset="0" max-vertical-offset="647">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -68,9 +68,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/NumberGameSpec.js" />
         <option value="$PROJECT_DIR$/SpecRunner.html" />
         <option value="$PROJECT_DIR$/src/NumberGame.js" />
+        <option value="$PROJECT_DIR$/spec/NumberGameSpec.js" />
       </list>
     </option>
   </component>
@@ -280,18 +280,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/NumberGameSpec.js">
+    <entry file="file://$PROJECT_DIR$/src/NumberGame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NumberGame.js">
+    <entry file="file://$PROJECT_DIR$/spec/NumberGameSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35239568" vertical-offset="0" max-vertical-offset="647">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.5873261" vertical-offset="0" max-vertical-offset="647">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding />
         </state>
       </provider>

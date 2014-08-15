@@ -12,7 +12,11 @@ describe("NumberGameSpec",function(){
         expect(compare.compareNumber("1234","1234")).toBe("4A0B");
     });
 
-    it("should print 0A4B if number equal but position is different",function(){
+    it("should print 0A4B if number is equal but position is different",function(){
         expect(compare.compareNumber("1234","4321")).toBe("0A4B");
+    })
+
+    it("should print 0A0B if number isn't equal and position is different", function(){
+        expect(compare.compareNumber("1234","5678")).toBe("0A0B");
     })
 })
