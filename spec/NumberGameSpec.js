@@ -23,4 +23,8 @@ describe("NumberGameSpec",function(){
     it("should print 2A2B ", function(){
         expect(compare.compareNumber("1234","1432")).toBe("2A2B");
     })
+
+    it("should print 3A0B", function(){
+        expect(compare.compareNumber("1234","1235")).toBe("3A0B");
+    })
 })
